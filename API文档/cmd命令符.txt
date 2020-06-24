@@ -1,0 +1,15 @@
+cd /d D:
+cd c:\
+cd/
+d:
+cd..
+
+压缩css：npm install gulp-clean-css --save-dev
+压缩js:  npm install gulp-uglify --save-dev
+压缩图片：npm install gulp-imagemin --save-dev
+jsx转化成js：npm install gulp-react --save-dev
+重命名：npm install gulp-rename --save-dev
+合并：npm install gulp-concat --save-dev
+
+
+cls清空cmd

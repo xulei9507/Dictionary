@@ -1,0 +1,1 @@
+在dos窗口中输入java -version或者javac

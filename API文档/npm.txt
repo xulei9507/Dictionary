@@ -1,0 +1,14 @@
+随便新建一个文件夹例如：F:\test。按着“shift”键，右键该文件夹，选择“在此处打开命令窗口（W）”，进入命令行，键入：npm i npm
+最后将 npm文件夹拷贝到nodejs的安装目录中的node_modules文件夹下，例如D:\Program Files\nodejs\node_modules
+最后你可以查看npm的版本：npm -v
+
+
+npm -v查看版本
+npm install npm -g升级
+
+
+执行npm某项命令时提示要求更高版本的npm
+npm install -g npm
+
+
+使用cmd命令行输入”npm -v“来测试是否成功安装
