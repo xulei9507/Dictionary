@@ -1,0 +1,25 @@
+
+插入数据：(数据库名称为app_db)
+  db.app_db.insert(
+	[{"username":"a","password":"1"},{"username":"b","password":"2"}.{"username":"c","password":"3"}]
+	)
+查询数据：
+  db.app_db.find({})
+  find()里面传递的参数json
+  json写成很多种条件
+
+删除数据：
+  db.app_db.remove({})
+
+修改数据
+  db.myapp.update({选择那个数据被修改},{$set:{表示被修改的属性}})
+
+
+启动mongodb服务的时候
+mongod --dbpath D:\mongo\data 路径一定要存在
+
+
+用nodejs使用mongodb:
+
+安装mongodb
+npm install mongodb --save-dev
